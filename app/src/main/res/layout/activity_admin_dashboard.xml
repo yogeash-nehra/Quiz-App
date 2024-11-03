@@ -1,0 +1,26 @@
+<!-- activity_admin_dashboard.xml -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="24dp">
+
+    <Button
+        android:id="@+id/buttonCreateTournament"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Create Tournament" />
+
+    <Button
+        android:id="@+id/buttonViewTournaments"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="View Tournaments" />
+
+    <Button
+        android:id="@+id/buttonLogout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Logout" />
+</LinearLayout>
